@@ -1,5 +1,5 @@
 [![Siddhantgour][Instagram-shield]][Instagram-url]  [![LinkedIn][linkedin-shield]][linkedin-url] 
-[![Siddhantgour][Twitter-shield]][Twitter-url] [![Youtube][Youtube-shield]][Youtube-url] [![Telegram][Telegram-shield]][Telegram-url] [![Facebook][Facebook-shield]][Facebook-url] 
+[![Siddhantgour][Twitter-shield]][Twitter-url] [![Youtube][Youtube-shield]][Youtube-url] [![Telegram][Telegram-shield]][Telegram-url] [![Facebook][Facebook-shield]][Facebook-url] [![Stackoverflow][stackoverflow-shield]][stackoverflow-url] 
 <p align="center">
   <img src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/logo.jpg" width="150"/>
 </a></p>
@@ -22,3 +22,5 @@
 [Telegram-url]: https://t.me/siddhantgour
 [Facebook-shield]: https://img.shields.io/badge/Facebook%20-%231877F2.svg?&style=for-the-badge&logo=Facebook&logoColor=white
 [Facebook-url]: https://facebook.com/siddhantgour01
+[Stackoverflow-shield]: https://img.shields.io/badge/-Stack%20overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white
+[Stackoverflow-url]: https://stackoverflow.com/users/story/12037921
