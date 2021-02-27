@@ -4,6 +4,18 @@
   <img src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/logo.jpg" width="150"/>
 </a></p>
 <h1 align="center">Jasmin The Ransomware</h1>
+<h3 align="center">What is Jasmin Ransomware</h3>
+
+  <p align="center">
+    A Powerful Ransomware Tool for Redteams 
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template">Video Tutorial</a>
+    ·
+    <a href="https://github.com/codesiddhant/jasmin-ransomware/issues">Report Bug</a>
+    ·
+    <a href="https://instagram.com/siddhantgour">Request Free Keygen</a>
+  </p>
+</p>
 
 
 
