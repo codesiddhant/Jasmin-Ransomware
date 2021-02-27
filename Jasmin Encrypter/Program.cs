@@ -50,7 +50,7 @@ namespace Jasmin_Encrypter
             Console.ReadKey();
 
             //Creating All Required Methods
-
+           
             string GeneratePassword()
             {
                 var randomstring = new RNGCryptoServiceProvider();
