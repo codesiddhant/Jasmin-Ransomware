@@ -60,8 +60,6 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 
 ### Built With
 
-
- <h3>Payload</h3> || <h3>Dashboard UI</h3> ||  <h3>Server Backend</h3> ||  <h3>Database</h3>
  <img alt="C#" src="https://img.shields.io/badge/c%23%20-%23239120.svg?&style=for-the-badge&logo=c-sharp&logoColor=white"/>
 
  <img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white"/>
