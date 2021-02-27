@@ -1,4 +1,4 @@
-[![LinkedIn][linkedin-shield]][linkedin-url]  [![Siddhantgour][Instagram-shield]][Instagram-url] 
+[![Siddhantgour][Instagram-shield]][Instagram-url]  [![LinkedIn][linkedin-shield]][linkedin-url] 
 [![Siddhantgour][Twitter-shield]][Twitter-url] [![Youtube][Youtube-shield]][Youtube-url] [![Telegram][Telegram-shield]][Telegram-url] 
 <p align="center">
   <img src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/logo.jpg" width="150"/>
