@@ -63,6 +63,10 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 [![Payload][c#-shield]][c#-url]  [![Dashboard][bootstrap-shield]][bootstrap-url] 
 [![Server][php-shield]][php-url] [![Database][mysql-shield]][mysql-url] 
 
+### Work Flow
+<p align="center">
+  <img alt="jasmin ransomware" src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/Images/workflow.PNG" />
+</p>
 
 
 
