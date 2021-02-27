@@ -1,5 +1,5 @@
 [![Siddhantgour][Instagram-shield]][Instagram-url]  [![LinkedIn][linkedin-shield]][linkedin-url] 
-[![Siddhantgour][Twitter-shield]][Twitter-url] [![Youtube][Youtube-shield]][Youtube-url] [![Telegram][Telegram-shield]][Telegram-url] [![Facebook][Facebook-shield]][Facebook-url] [![Stackoverflow][stackoverflow-shield]][stackoverflow-url] 
+[![Siddhantgour][Twitter-shield]][Twitter-url] [![Youtube][Youtube-shield]][Youtube-url] [![Telegram][Telegram-shield]][Telegram-url] [![Facebook][Facebook-shield]][Facebook-url] 
 <p align="center">
   <img src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/logo.jpg" width="150"/>
 </a></p>
@@ -24,3 +24,5 @@
 [Facebook-url]: https://facebook.com/siddhantgour01
 [Stackoverflow-shield]: https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white
 [Stackoverflow-url]: https://stackoverflow.com/users/story/12037921
+[Quora-shield]: https://img.shields.io/badge/Quora%20-%23B92B27.svg?&style=for-the-badge&logo=Quora&logoColor=white
+[Quora-url]: https://www.quora.com/profile/Siddhant-Gour-1
