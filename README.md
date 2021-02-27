@@ -20,5 +20,5 @@
 [Youtube-url]: https://youtube.com/cyberstair
 [Telegram-shield]: https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white
 [Telegram-url]: https://t.me/siddhantgour
-[Telegram-shield]:https://img.shields.io/badge/Facebook%20-%231877F2.svg?&style=for-the-badge&logo=Facebook&logoColor=white
+[Telegram-shield]: https://img.shields.io/badge/Facebook%20-%231877F2.svg?&style=for-the-badge&logo=Facebook&logoColor=white
 [Telegram-url]: https://facebook.com/siddhantgour01
