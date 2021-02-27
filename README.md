@@ -1,7 +1,7 @@
 [![Siddhantgour][Instagram-shield]][Instagram-url]  [![LinkedIn][linkedin-shield]][linkedin-url] 
 [![Siddhantgour][Twitter-shield]][Twitter-url] [![Youtube][Youtube-shield]][Youtube-url] [![Telegram][Telegram-shield]][Telegram-url] [![Quora][Quora-shield]][Quora-url]  [![Facebook][Facebook-shield]][Facebook-url] 
 <p align="center">
-  <img src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/Images/logo.jpg" width="150"/>
+  <img alt="jasmin ransomware" src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/Images/logo.jpg" width="150"/>
 </p>
 <h1 align="center">Jasmin The Ransomware</h1>
 
@@ -44,19 +44,20 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <p align="center">
-  <img src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/Images/jasmin-banner.gif" width="850"/>
+  <img alt="jasmin ransomware" src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/Images/jasmin-banner.gif" width="850"/>
 </p>
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Jasmin is a different kind of ransomware worm by which many of your documents, photos, videos, database and other important files are no longer accessible because they have been encrypted and it becomes impossible for users to access their files without decryption tool and valid key.
+This Tool is Developed to help Redteams and ethical hacker for simulting a real ransomware attack. 
+There is really no shortcut for something like this. It's not enough to just know what files could be encrypted, and you certainly don't need a tool to tell you that. 
+What you need is a ransomware simulator that can safely encrypt some files on your computer, to let you know if your defenses are actually working.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
+Here's why to use jasmin to security testing:
+* Jasmin Ransomware is developed using C#(.Net Framework) which makes it lighter in weight and easier to embedded.
+* You Can Simulate a real ransomware attack and bypass any .
+* Powerful | Strong Encryption | Centralized Database on Server| Can Bypass Anti Virus.
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 
 
