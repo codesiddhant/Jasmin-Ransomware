@@ -1,5 +1,5 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]  [![Siddhantgour][Instagram-shield]][Instagram-url] 
-[![Siddhantgour][Twitter-shield]][Twitter-url] [![Cyberstair][Youtube-shield]][Youtube-url] 
+[![Siddhantgour][Twitter-shield]][Twitter-url] [![Youtube][Youtube-shield]][Youtube-url] [![Telegram][Telegram-shield]][Telegram-url] 
 <p align="center">
   <img src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/logo.jpg" width="150"/>
 </a></p>
@@ -7,7 +7,7 @@
 
 
 
-<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://github.com/Ileriayo/markdown-badges-->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/siddhantgour
@@ -18,4 +18,5 @@
 [Twitter-url]: https://twitter.com/siddhantgour
 [Youtube-shield]: https://img.shields.io/badge/cyberstair%20-%23FF0000.svg?&style=for-the-badge&logo=Youtube&logoColor=white
 [Youtube-url]: https://youtube.com/cyberstair
-
+[Telegram-shield]: https://img.shields.io/badge/cyberstair%20-%2CA5E0.svg?&style=for-the-badge&logo=Telegram&logoColor=white
+[Telegram-url]: https://t.me/siddhantgour
