@@ -9,14 +9,14 @@ if( !isset($_SESSION['username']) ){
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Neki Dashboard</title>
+  <title>Jasmin Dashboard</title>
   <link rel="stylesheet" href="./assets/css/style2.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<h1><div class="flux">Neki Ransomware</div></h1>
+<h1><div class="flux">Jasmin Ransomware</div></h1>
 <h2>Coded with Heart &#10084;&#65039 by  &#8594; <a href="http://github.com/codesiddhant/jasmin" target="_blank" class="yellow" > S i d d h a n t  _   G o u r</a></h2>
 <h1><span class="yellow1">-Infected Systems Database-</span></h1>
 
