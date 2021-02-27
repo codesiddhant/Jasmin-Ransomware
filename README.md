@@ -14,7 +14,7 @@
 
 [Instagram-shield]: https://img.shields.io/badge/siddhantgour%20-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white
 [Instagram-url]: https://instagram.com/siddhantgour
-[Twitter-shield]: https://img.shields.io/badge/siddhantgour%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white
+[Twitter-shield]: https://img.shields.io/badge/Twitter%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white
 [Twitter-url]: https://twitter.com/siddhantgour
 [Youtube-shield]: https://img.shields.io/badge/Youtube%20-%23FF0000.svg?&style=for-the-badge&logo=Youtube&logoColor=white
 [Youtube-url]: https://youtube.com/cyberstair
