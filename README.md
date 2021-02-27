@@ -1,8 +1,8 @@
 [![Siddhantgour][Instagram-shield]][Instagram-url]  [![LinkedIn][linkedin-shield]][linkedin-url] 
 [![Siddhantgour][Twitter-shield]][Twitter-url] [![Youtube][Youtube-shield]][Youtube-url] [![Telegram][Telegram-shield]][Telegram-url] [![Quora][Quora-shield]][Quora-url]  [![Facebook][Facebook-shield]][Facebook-url] 
 <p align="center">
-  <img src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/logo.jpg" width="150"/>
-</a></p>
+  <img src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/image/logo.jpg" width="150"/>
+</p>
 <h1 align="center">Jasmin The Ransomware</h1>
 
   <p align="center">
@@ -40,6 +40,23 @@
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+<p align="center">
+  <img src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/image/jasmin-banner.gif" width="150"/>
+</p>
+
+There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+
+Here's why:
+* Your time should be focused on creating something amazing. A project that solves a problem and helps others
+* You shouldn't be doing the same tasks over and over like creating a README from scratch
+* You should element DRY principles to the rest of your life :smile:
+
+Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
+
+A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 
 
