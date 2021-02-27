@@ -1,4 +1,4 @@
-[![LinkedIn][linkedin-shield]][linkedin-url] [![Siddhantgour][Instagram-shield]][Instagram-url] [![Siddhantgour][Instagram-shield]][Instagram-url] 
+[![LinkedIn][linkedin-shield]][linkedin-url] [![Siddhantgour][Instagram-shield]][Instagram-url] [![Siddhantgour][Twitter-shield]][Twitter-url] 
 <p align="center">
   <img src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/logo.jpg" width="150"/>
 </a></p>
@@ -16,5 +16,4 @@
 
 [Twitter-shield] : https://img.shields.io/badge/siddhantgour%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white
 [Twitter-url]    : https://twitter.com/siddhantgour
-[Youtube-shield] : 
-[Youtube-shield] : 
+
