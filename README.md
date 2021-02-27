@@ -90,9 +90,9 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 
 [c#-shield]: https://img.shields.io/badge/Payload%20-%23239120.svg?&style=for-the-badge&logo=c-sharp&logoColor=white
 [c#-url]: https://dotnet.microsoft.com/
-[bootstrap-shield]: https://img.shields.io/badge/bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white
+[bootstrap-shield]: https://img.shields.io/badge/Dashboard%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white
 [bootstrap-url]: https://getbootstrap.com/
-[php-shield]: https://img.shields.io/badge/php-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white
+[php-shield]: https://img.shields.io/badge/Server-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white
 [php-url]: https://www.php.net/
-[mysql-shield]: https://img.shields.io/badge/mysql-%2300f.svg?&style=for-the-badge&logo=mysql&logoColor=white
+[mysql-shield]: https://img.shields.io/badge/Database-%2300f.svg?&style=for-the-badge&logo=mysql&logoColor=white
 [mysql-url]: https://www.mysql.com/
