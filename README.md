@@ -60,14 +60,8 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 
 ### Built With
 	
- <img alt="C#" src="https://img.shields.io/badge/c%23%20-%23239120.svg?&style=for-the-badge&logo=c-sharp&logoColor=white"/>
-
- <img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white"/>
-
- <img alt="PHP" src="https://img.shields.io/badge/php-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white"/>
-
- <img alt="MySQL" src="https://img.shields.io/badge/mysql-%2300f.svg?&style=for-the-badge&logo=mysql&logoColor=white"/>
-
+[![Payload][c#-shield]][c#-url]  [![Dashboard][bootstrap-shield]][bootstrap-url] 
+[![Server][php-shield]][php-url] [![Database][mysql-shield]][mysql-url] 
 
 
 
@@ -92,3 +86,13 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 [Stackoverflow-url]: https://stackoverflow.com/users/story/12037921
 [Quora-shield]: https://img.shields.io/badge/Quora%20-%23B92B27.svg?&style=for-the-badge&logo=Quora&logoColor=white
 [Quora-url]: https://www.quora.com/profile/Siddhant-Gour-1
+
+
+[c#-shield]: https://img.shields.io/badge/Payload%20-%23239120.svg?&style=for-the-badge&logo=c-sharp&logoColor=white
+[c#-url]: https://dotnet.microsoft.com/
+[bootstrap-shield]: https://img.shields.io/badge/bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white
+[bootstrap-url]: https://getbootstrap.com/
+[php-shield]: https://img.shields.io/badge/php-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white
+[php-url]: https://www.php.net/
+[mysql-shield]: https://img.shields.io/badge/mysql-%2300f.svg?&style=for-the-badge&logo=mysql&logoColor=white
+[mysql-url]: https://www.mysql.com/
