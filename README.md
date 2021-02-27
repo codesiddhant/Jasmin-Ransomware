@@ -18,5 +18,5 @@
 [Twitter-url]: https://twitter.com/siddhantgour
 [Youtube-shield]: https://img.shields.io/badge/cyberstair%20-%23FF0000.svg?&style=for-the-badge&logo=Youtube&logoColor=white
 [Youtube-url]: https://youtube.com/cyberstair
-[Telegram-shield]: https://img.shields.io/badge/cyberstair%20-%2CA5E0.svg?&style=for-the-badge&logo=Telegram&logoColor=white
+[Telegram-shield]: https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white
 [Telegram-url]: https://t.me/siddhantgour
