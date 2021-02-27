@@ -65,7 +65,7 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 
 ### Work Flow
 <p align="center">
-  <img alt="jasmin ransomware" src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/Images/workflow.PNG" />
+  <img alt="jasmin ransomware" src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/Images/workflow.png" />
 </p>
 
 
