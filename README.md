@@ -1,4 +1,8 @@
-[![LinkedIn][linkedin-shield]][linkedin-url] <img alt="Instagram" src="https://img.shields.io/badge/<siddhantgour>%20-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white"/>
+[![LinkedIn][linkedin-shield]][linkedin-url] 
+
+<a href="https://instagram.com/siddhantgour" > 
+<img alt="Instagram" src="https://img.shields.io/badge/siddhantgour%20-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white"/>
+ </a>
 <p align="center">
   <img src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/logo.jpg" width="150"/>
 </a></p>
