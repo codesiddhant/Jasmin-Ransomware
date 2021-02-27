@@ -4,10 +4,9 @@
   <img src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/logo.jpg" width="150"/>
 </a></p>
 <h1 align="center">Jasmin The Ransomware</h1>
-<h3 align="center">What is Jasmin Ransomware</h3>
 
   <p align="center">
-    A Powerful Ransomware Tool for Redteams 
+    A Powerful Ransomware Tool for Security Testing Used by ReadTeams
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">Video Tutorial</a>
     ·
