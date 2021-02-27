@@ -22,5 +22,5 @@
 [Telegram-url]: https://t.me/siddhantgour
 [Facebook-shield]: https://img.shields.io/badge/Facebook%20-%231877F2.svg?&style=for-the-badge&logo=Facebook&logoColor=white
 [Facebook-url]: https://facebook.com/siddhantgour01
-[Stackoverflow-shield]: https://img.shields.io/badge/-Stack%20overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white
+[Stackoverflow-shield]: https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white
 [Stackoverflow-url]: https://stackoverflow.com/users/story/12037921
