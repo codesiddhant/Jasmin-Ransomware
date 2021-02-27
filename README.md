@@ -14,6 +14,9 @@
 
 [Instagram-shield]: https://img.shields.io/badge/siddhantgour%20-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white
 [Instagram-url]: https://instagram.com/siddhantgour
+[Instagram-shield]: https://img.shields.io/badge/siddhantgour%20-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white
+[Instagram-url]: https://instagram.com/siddhantgour
+
 
 [Twitter-shield] : https://img.shields.io/badge/siddhantgour%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white
 [Twitter-url]    : https://twitter.com/siddhantgour
