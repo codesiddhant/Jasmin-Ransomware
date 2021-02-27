@@ -53,10 +53,16 @@ There is really no shortcut for something like this. It's not enough to just kno
 What you need is a ransomware simulator that can safely encrypt some files on your computer, to let you know if your defenses are actually working.
 
 
-Here's why to use jasmin to security testing:
+ Why to use jasmin to security testing ?:
 * Jasmin Ransomware is developed using C#(.Net Framework) which makes it lighter in weight and easier to embedded.
 * You Can Simulate a real ransomware attack and bypass any .
 * Powerful | Strong Encryption | Centralized Database on Server| Can Bypass Anti Virus.
+
+This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+* [C#] <img alt="C#" src="https://img.shields.io/badge/c%23%20-%23239120.svg?&style=for-the-badge&logo=c-sharp&logoColor=white"/>
+* [PHP]<img alt="PHP" src="https://img.shields.io/badge/php-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white"/>
+* [MySQL]<img alt="MySQL" src="https://img.shields.io/badge/mysql-%2300f.svg?&style=for-the-badge&logo=mysql&logoColor=white"/>
+* [BootStrap]<img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white"/>
 
 
 
