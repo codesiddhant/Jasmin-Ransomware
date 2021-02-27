@@ -1,0 +1,362 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IpInfo</name>
+    </assembly>
+    <members>
+        <member name="T:IpInfo.IpInfoApi">
+            <summary>
+            Class providing methods for API access.
+            </summary>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetInformationByIpsAsync(System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)">
+            <param name="ips"></param>
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Returns information about the selected values.</summary>
+            <returns>Batch response object.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.#ctor(System.String,System.Net.Http.HttpClient)">
+            <summary>
+            Sets the selected token as a default header for the HttpClient.
+            </summary>
+            <param name="token"></param>
+            <param name="httpClient"></param>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetCurrentInformationAsync">
+            <summary>Returns information about the current IP.</summary>
+            <returns>Full response object.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetCurrentInformationAsync(System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Returns information about the current IP.</summary>
+            <returns>Full response object.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.BatchAsync(System.Object)">
+            <summary>Returns information about the selected values.</summary>
+            <returns>Batch response object.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.BatchAsync(System.Object,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Returns information about the selected values.</summary>
+            <returns>Batch response object.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetInformationByIpAsync(System.String)">
+            <summary>Returns information about the selected IP.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <returns>Full response object.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetInformationByIpAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Returns information about the selected IP.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <returns>Full response object.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetAsnAsync(System.Int32)">
+            <summary>Returns information about an ASN, such as the assigned prefixes, related domain, and more.</summary>
+            <param name="asn">an ASN number.</param>
+            <returns>ASN response object.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetAsnAsync(System.Int32,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Returns information about an ASN, such as the assigned prefixes, related domain, and more.</summary>
+            <param name="asn">an ASN number.</param>
+            <returns>ASN response object.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetRangesAsync(System.String)">
+            <summary>Our IP address ranges API returns a list of all of the IP addresses ranges assigned to or operated by a company, identified by the provided domain name.</summary>
+            <param name="domain">a domain.</param>
+            <returns>Ranges response object.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetRangesAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Our IP address ranges API returns a list of all of the IP addresses ranges assigned to or operated by a company, identified by the provided domain name.</summary>
+            <param name="domain">a domain.</param>
+            <returns>Ranges response object.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetDomainsAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>Our Hosted Domains, or Reverse IP API returns a list of all of the domains hosted on the provided IP address.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <param name="page">The page query parameter can be used to go through paginated records. page starts at 0 and the parameter is part of the response when included in request.</param>
+            <param name="limit">The API returns 100 domains per page and has a limit of 1000 domains per page. We return up to 10 million results. The limit parameter can be used to control the number of domains per page.</param>
+            <returns>Domains response object.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetDomainsAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Our Hosted Domains, or Reverse IP API returns a list of all of the domains hosted on the provided IP address.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <param name="page">The page query parameter can be used to go through paginated records. page starts at 0 and the parameter is part of the response when included in request.</param>
+            <param name="limit">The API returns 100 domains per page and has a limit of 1000 domains per page. We return up to 10 million results. The limit parameter can be used to control the number of domains per page.</param>
+            <returns>Domains response object.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetAbuseAsync(System.String)">
+            <summary>Our abuse contact API returns data containing information belonging to the abuse contact of every IP address on the Internet. Fields included in this response are the abuse contact's email address, postal/ZIP code, city, state, country, name, network, and phone number.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <returns>Abuse response object.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetAbuseAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Our abuse contact API returns data containing information belonging to the abuse contact of every IP address on the Internet. Fields included in this response are the abuse contact's email address, postal/ZIP code, city, state, country, name, network, and phone number.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <returns>Abuse response object.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetPrivacyInformationByIpAsync(System.String)">
+            <summary>Returns privacy information about the selected IP.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <returns>Privacy response.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetPrivacyInformationByIpAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Returns privacy information about the selected IP.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <returns>Privacy response.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetCurrentIpAsync">
+            <summary>Returns the current IP.</summary>
+            <returns>An ip.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetCurrentIpAsync(System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Returns the current IP.</summary>
+            <returns>An ip.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetIpByIpAsync(System.String)">
+            <summary>Returns a ip for the selected IP. Yes, I know this is a pointless method.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <returns>An ip.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetIpByIpAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Returns a ip for the selected IP. Yes, I know this is a pointless method.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <returns>An ip.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetCurrentHostnameAsync">
+            <summary>Returns the current hostname.</summary>
+            <returns>A hostname.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetCurrentHostnameAsync(System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Returns the current hostname.</summary>
+            <returns>A hostname.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetHostnameByIpAsync(System.String)">
+            <summary>Returns a hostname for the selected IP.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <returns>A hostname.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetHostnameByIpAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Returns a hostname for the selected IP.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <returns>A hostname.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetCurrentCityAsync">
+            <summary>Returns the current city.</summary>
+            <returns>A city.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetCurrentCityAsync(System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Returns the current city.</summary>
+            <returns>A city.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetCityByIpAsync(System.String)">
+            <summary>Returns a city for the selected IP.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <returns>A city.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetCityByIpAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Returns a city for the selected IP.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <returns>A city.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetCurrentRegionAsync">
+            <summary>Returns the current region.</summary>
+            <returns>A region.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetCurrentRegionAsync(System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Returns the current region.</summary>
+            <returns>A region.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetRegionByIpAsync(System.String)">
+            <summary>Returns a region for the selected IP.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <returns>A region.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetRegionByIpAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Returns a region for the selected IP.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <returns>A region.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetCurrentCountryAsync">
+            <summary>Returns the current country.</summary>
+            <returns>A country.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetCurrentCountryAsync(System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Returns the current country.</summary>
+            <returns>A country.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetCountryByIpAsync(System.String)">
+            <summary>Returns a country for the selected IP.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <returns>A country.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetCountryByIpAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Returns a country for the selected IP.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <returns>A country.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetCurrentLocationAsync">
+            <summary>Returns the current location.</summary>
+            <returns>A location.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetCurrentLocationAsync(System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Returns the current location.</summary>
+            <returns>A location.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetLocationByIpAsync(System.String)">
+            <summary>Get a location for the selected IP.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <returns>A location.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetLocationByIpAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Get a location for the selected IP.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <returns>A location.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetCurrentPostalAsync">
+            <summary>Returns the current postal.</summary>
+            <returns>A postal.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetCurrentPostalAsync(System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Returns the current postal.</summary>
+            <returns>A postal.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetPostalByIpAsync(System.String)">
+            <summary>Returns a postal for the selected IP.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <returns>A postal.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetPostalByIpAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Returns a postal for the selected IP.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <returns>A postal.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetCurrentTimezoneAsync">
+            <summary>Returns the current timezone.</summary>
+            <returns>A timezone.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetCurrentTimezoneAsync(System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Returns the current timezone.</summary>
+            <returns>A timezone.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetTimezoneByIpAsync(System.String)">
+            <summary>Returns a timezone for the selected IP.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <returns>A timezone.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetTimezoneByIpAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Returns a timezone for the selected IP.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <returns>A timezone.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetCurrentOrganizationAsync">
+            <summary>Returns the current organization.</summary>
+            <returns>A organization.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetCurrentOrganizationAsync(System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Returns the current organization.</summary>
+            <returns>A organization.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetOrganizationByIpAsync(System.String)">
+            <summary>Returns a organization for the selected IP.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <returns>A organization.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetOrganizationByIpAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Returns a organization for the selected IP.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <returns>A organization.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetDomainsAsync(System.String,System.Nullable{System.Int32},System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Our Hosted Domains, or Reverse IP API returns a list of all of the domains hosted on the provided IP address.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <param name="page">The page query parameter can be used to go through paginated records. page starts at 0 and the parameter is part of the response when included in request.</param>
+            <returns>Domains response object.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:IpInfo.IpInfoApi.GetDomainsAsync(System.String,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Our Hosted Domains, or Reverse IP API returns a list of all of the domains hosted on the provided IP address.</summary>
+            <param name="ip">A single IPv4 or IPv6 IP address.</param>
+            <returns>Domains response object.</returns>
+            <exception cref="T:IpInfo.ApiException">A server side error occurred.</exception>
+        </member>
+    </members>
+</doc>

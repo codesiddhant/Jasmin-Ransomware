@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+body {
+  background:#131c31;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+body h1 {
+  margin-bottom: 20px;
+}
+body p {
+  font-size: 18px;
+  line-height: 30px;
+}
+body a {
+  color: #FBD160;
+}
+
+svg {
+  display: block;
+  margin: 0 auto;
+  overflow: visible !important;
+}
+svg #robot_1_ {
+  animation-name: verticalAnimation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+svg #light_1_ {
+  animation-name: blinkLight;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: steps(2);
+}
+svg #leftEye_1_, svg #rightEye_1_ {
+  animation-name: blinkEye;
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  transform-origin: 50% 50%;
+}
+svg #leftArm_1_ {
+  animation-name: moveLeftArm;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  transform-origin: 50% 10%;
+  transition: all;
+}
+svg #rightArm_1_ {
+  animation-name: moveRightArm;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  transform-origin: 50% 10%;
+}
+svg #shadow_1_ {
+  animation-name: shadowAnimation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  transform-origin: 50%;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(120deg);
+  }
+  100% {
+    transform: rotate(170deg);
+  }
+}
+@keyframes moveLeftArm {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(4deg);
+  }
+}
+@keyframes moveRightArm {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-4deg);
+  }
+}
+@keyframes shadowAnimation {
+  0% {
+    transform: scale(1);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(1.15);
+    opacity: 0.6;
+  }
+}
+@keyframes verticalAnimation {
+  0% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+@keyframes blinkLight {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blinkEye {
+  0% {
+    transform: scaleY(0);
+  }
+  4% {
+    transform: scaleY(1);
+  }
+}
