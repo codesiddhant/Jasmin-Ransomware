@@ -68,24 +68,23 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
   <img alt="jasmin ransomware" src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/Images/workflow.png" />
 </p>
 
-## SETUP AND RUNNING
+### SETUP AND RUNNING
 
-  **Clone this repo**
+1. ** Clone the repo **
    ```sh
    git clone https://github.com/codesiddhant/jasmin-ransomware.git
    ```
+2. Setting Up Webserver & Database
    
-## Setting Up Webserver & Database
-   
-    * Copy the all the files in webpanel directory to htdocs or (/var/www/html) 
+    * Copy the all the files in webpanel directory to htdocs or (/var/www/html).  
 	
-	* Open Mysql Shell
+	* Open Mysql Shell. 
 	
 	 <p align="center">
     <img alt="jasmin ransomware" src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/Images/xampp.jpg" />
     </p>
-		
-	* Login as Root user.
+	
+	* Login as Root user. 
 	```sh
      mysql -h localhost -u root
    ```
@@ -98,7 +97,7 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 	 Exit
    ```
 	
-	* Importing jasmin_db.sql file from database directory.
+	* Importing jasmin_db.sql file from database directory. 
 	
 	```sh
       mysql -u jasminadmin -p123456 jasmin_db < htdocs/database/jasmin_db.sql
@@ -112,7 +111,7 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 	 Access Code : 123456
     ```
 	
-### Generating Payload
+3. Generating Payload 
          
     Note: You should have installed visual studio 2019 or later in your machine		 
 	
@@ -124,7 +123,7 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
      ngrok  http localhost:80
     ```
 	
-	* Copy Forwarding Address
+	* Copy Forwarding Address 
 	
 	<p align="center">
     <img alt="siddhantgour" src="./Images/ngrok.PNG">
@@ -132,7 +131,6 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 	
     =>    Open "Jasmin Encrypter" directory & open "Jasmin Encryptor.sln" file
 	=>    Now 
-
 	
 
   
