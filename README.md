@@ -163,6 +163,17 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
          * =>   get the **SystemId** from your victims through emails  <br>
 	     * =>   download the Decryption key from web-dashboard for that **SystemId** <br>
 		 * =>   reply your victims with Decryption Tool and Passsword File  <br>
+		 
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- CONTACT -->
+## Contact
+[![Siddhantgour][Instagram-shield]][Instagram-url]  [![LinkedIn][linkedin-shield]][linkedin-url] 
+[![Siddhantgour][Twitter-shield]][Twitter-url] [![Youtube][Youtube-shield]][Youtube-url] [![Telegram][Telegram-shield]][Telegram-url]
+		 
 		   
   
 <!-- https://github.com/Ileriayo/markdown-badges-->
