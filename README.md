@@ -60,7 +60,7 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 
  Why to use jasmin to security testing ?:
 * Jasmin Ransomware is developed using C#(.Net Framework) which makes it lighter in weight and easier to embedded.
-* You Can Simulate a real ransomware attack and bypass any .
+* You Can Simulate a real ransomware attack and bypass any kind of system securities .
 * Powerful | Strong Encryption | Centralized Database on Server| Can Bypass Anti Virus.
 
 ## Built With 🧱
