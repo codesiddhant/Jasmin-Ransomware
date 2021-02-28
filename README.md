@@ -58,23 +58,23 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 * You Can Simulate a real ransomware attack and bypass any .
 * Powerful | Strong Encryption | Centralized Database on Server| Can Bypass Anti Virus.
 
-### Built With
+## Built With
 	
 [![Payload][c#-shield]][c#-url]  [![Dashboard][bootstrap-shield]][bootstrap-url] 
 [![Server][php-shield]][php-url] [![Database][mysql-shield]][mysql-url] 
 
-### Work Flow
+## Work Flow
 <p align="center">
   <img alt="jasmin ransomware" src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/Images/workflow.png" />
 </p>
 
 ## SETUP AND RUNNING
 
- **Clone the repo**
+1. ### Clone This Repo
    ```sh
    git clone https://github.com/codesiddhant/jasmin-ransomware.git
    ```
- ### Webserver & Database
+2. ### Webserver & Database
    
     * Copy the all the files in webpanel directory to htdocs or (/var/www/html).  
 	
@@ -111,7 +111,7 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 	 Access Code : 123456
     ```
 	
-Generating Payload 
+3. Generating Payload 
          
     Note: You should have installed visual studio 2019 or later in your machine		 
 	
