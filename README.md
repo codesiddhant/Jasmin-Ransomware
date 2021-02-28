@@ -136,16 +136,13 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
     <img alt="jasmin ransomware" src="./Images/variable.gif">
     </p>
 	
-	* **Building .Exe File** 
-	<br>
+	* **Building .Exe File** <br>
 	     * =>   Go to top nav bar & click to build => Clean Solution  <br>
          * =>   Again click to build => Clean Jasmin Encryptor <br>
-	     * =>   Once Again click to build => Rebuild Jasmin Encryptor <br>
+	     * =>   Once Again click to build button => Rebuild Jasmin Encryptor <br>
 		 * =>   Go to **"Jasmin Encrypter\bin\Release"** directory !! Congrats Payload is ready <br>
 		 
-  
-		
-     	
+	
 
   
 <!-- https://github.com/Ileriayo/markdown-badges-->
