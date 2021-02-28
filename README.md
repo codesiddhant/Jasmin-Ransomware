@@ -42,7 +42,7 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Project 💡
 <p align="center">
   <img alt="jasmin ransomware" src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/Images/jasmin-banner.gif" width="850"/>
 </p>
@@ -58,7 +58,7 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 * You Can Simulate a real ransomware attack and bypass any .
 * Powerful | Strong Encryption | Centralized Database on Server| Can Bypass Anti Virus.
 
-## Built With
+## Built With 🧱
 	
 [![Payload][c#-shield]][c#-url]  [![Dashboard][bootstrap-shield]][bootstrap-url] 
 [![Server][php-shield]][php-url] [![Database][mysql-shield]][mysql-url] 
