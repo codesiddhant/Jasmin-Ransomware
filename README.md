@@ -74,7 +74,7 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
    ```sh
    git clone https://github.com/codesiddhant/jasmin-ransomware.git
    ```
-2. **Setting Up Webserver & Database**
+2. ### Webserver & Database
    
     * Copy the all the files in webpanel directory to htdocs or (/var/www/html).  
 	
