@@ -23,13 +23,14 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
+        <li><a href="#workflow">Work Flow</a></li>
       </ul>
     </li>
     <li>
-      <a href="#SETUP AND RUNNING">Getting Started</a>
+      <a href="#SETUP AND RUNNING">Setup & Running</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#Clone This Repo">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
