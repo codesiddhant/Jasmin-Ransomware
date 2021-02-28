@@ -70,11 +70,11 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 
 ## SETUP AND RUNNING
 
-1. ### Clone This Repo
+* ### Clone This Repo
    ```sh
    git clone https://github.com/codesiddhant/jasmin-ransomware.git
    ```
-2. ### Webserver & Database
+* ### Webserver & Database
    
     * Copy the all the files in webpanel directory to htdocs or (/var/www/html).  
 	
