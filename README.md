@@ -55,7 +55,7 @@
 Jasmin is a different kind of ransomware worm by which many of your documents, photos, videos, database and other important files are no longer accessible because they have been encrypted and it becomes impossible for users to access their files without decryption tool and valid key.
 This Tool is Developed to help Red teams and ethical hackers simulating a real ransomware attack. <br>
 There is really no shortcut for something like this. It's not enough to just know what files could be encrypted, and you certainly don't need a tool to tell you that. <br>
-What you need is a ransomware simulator that can safely encrypt some files on your computer, to let you know if your defenses are actually working.
+This is a ransomware simulator that can safely encrypt some files on your computer, to let you know if your defenses are actually working. Jasmin Ransomware is developed by security researcher siddhant gour. <br>
 
 
  Why to use jasmin to security testing ?:
