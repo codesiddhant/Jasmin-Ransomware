@@ -48,7 +48,7 @@
   <img alt="jasmin ransomware" src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/Images/jasmin-banner.gif" width="850"/>
 </p>
 
-<h2 style={color:red}> Please First read the <a href="#DISCLAIMER">Disclaimer</a> ⚠️⚠️</h2>
+<h2 style="color:red"> Please First read the <a href="#DISCLAIMER">DISCLAIMER</a> ⚠️⚠️</h2>
 
 DANGER DESCRIPTION
 
