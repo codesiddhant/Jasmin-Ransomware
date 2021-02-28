@@ -121,14 +121,18 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
      ngrok  http localhost:80
     ```
 	
-	* Copy Forwarding Address 
+	* **Copy Forwarding Address** 
 	
 	<p align="center">
     <img alt="siddhantgour" src="./Images/ngrok.PNG">
     </p>
 	
-    =>    Open "Jasmin Encrypter" directory & open "Jasmin Encryptor.sln" file
-	=>    Now 
+	* **Configure & build payload file** 
+    =>   Inside **"Jasmin Encrypter"** directory open "Jasmin Encryptor.sln" file
+	=>   Go to line number 34 & 35 
+	=>   Set Ngrok host address for **"hostaddr"** & **"AlertMsgLink"** Varible 
+	
+
 	
 
   
