@@ -70,11 +70,11 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 
 ### SETUP AND RUNNING
 
-1. Clone the repo
+1. ** Clone the repo **
    ```sh
    git clone https://github.com/codesiddhant/jasmin-ransomware.git
    ```
-2. Setting Up Webserver & Database
+2. ** Setting Up Webserver & Database **
    
     * Copy the all the files in webpanel directory to htdocs or (/var/www/html).  
 	
@@ -111,7 +111,7 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 	 Access Code : 123456
     ```
 	
-3. Generating Payload 
+3. ** Generating Payload **
          
     Note: You should have installed visual studio 2019 or later in your machine		 
 	
