@@ -96,6 +96,13 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 	 GRANT ALL PRIVILEGES ON jasmin_db.* TO 'jasminadmin'@'localhost';
 	 Exit
    ```
+	
+	* Importing jasmin_db.sql file from database directory 
+	
+	```sh
+      mysql -u jasminadmin -p123456 jasmin_db < htdocs/database/jasmin_db.sql
+    ```
+	
 ## Roadmap
 
   
