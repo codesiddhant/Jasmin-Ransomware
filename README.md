@@ -127,7 +127,7 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
     <img alt="siddhantgour" src="./Images/ngrok.PNG">
     </p>
 	
-	* **Configure & build payload file** <br>
+	* **Configure variables** <br>
          * =>   Inside **"Jasmin Encrypter"** directory open "Jasmin Encryptor.sln" file <br>
          * =>   Go to line number 34 & 35 <br>
 	     * =>   Set Ngrok host address for **"hostaddr"** & **"AlertMsgLink"** Variable <br>
@@ -135,6 +135,13 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
     <p align="center">
     <img alt="jasmin ransomware" src="./Images/variable.gif">
     </p>
+	
+	* **Building .Exe File** <br>
+	     * =>   At top most nav bar click to build button => Clean Solution  <br>
+         * =>   Again click to build button => Clean Jasmin Encryptor <br>
+	     * =>   Once Again click to build button => Rebuild Jasmin Encryptor <br>
+		 * =>   Go to **"Jasmin Encrypter\bin\Release"** directory !! Congrats Payload is ready <br>
+		 
 	
 
   
