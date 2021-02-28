@@ -30,15 +30,14 @@
       <a href="#SETUP-AND-RUNNING">Setup & Running</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#Clone This Repo">Installation</a></li>
+        <li><a href="#Clone-This-Repo">Installation</a></li>
+        <li><a href="#Webserver-&-Database">Webserver</a></li>
+        <li><a href="#Generating-Payload">Encryption Payload</a></li>
+        <li><a href="#Decryption-Process">Decryption Tool</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
