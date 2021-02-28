@@ -27,7 +27,7 @@
       </ul>
     </li>
     <li>
-      <a href="#SETUP AND RUNNING">Setup & Running</a>
+      <a href="#SETUP-AND-RUNNING">Setup & Running</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#Clone This Repo">Installation</a></li>
