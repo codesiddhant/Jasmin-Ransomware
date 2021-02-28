@@ -76,19 +76,19 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
    ```
 * ### Webserver & Database
    
-    * Copy the all the files in webpanel directory to htdocs or (/var/www/html).  
+    * **Copy the all the files in webpanel directory to htdocs or (/var/www/html)**  
 	
-	* Open Mysql Shell. 
+	* **Open Mysql Shell** 
 	
 	 <p align="center">
     <img alt="jasmin ransomware" src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/Images/xampp.jpg" />
     </p>
 	
-	* Login as Root user. 
+	* **Login as Root user** 
 	```sh
      mysql -h localhost -u root
    ```
-    * Create new database & assign user.
+    * **Create new database & assign user**
 	
 	```sh
      CREATE DATABASE jasmin_db;
@@ -97,12 +97,12 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 	 Exit
    ```
 	
-	* Importing jasmin_db.sql file from database directory. 
+	* **Importing jasmin_db.sql file from database directory** 
 	
 	```sh
       mysql -u jasminadmin -p123456 jasmin_db < htdocs/database/jasmin_db.sql
     ```
-	* Loggin Dashboard
+	* **Loggin Dashboard**
      
 	 Open Google Chrome and visit http://localhost/ <br>
 	 Use default credentials
