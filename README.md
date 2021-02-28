@@ -128,9 +128,9 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
     </p>
 	
 	* **Configure & build payload file** 
-    =>   Inside **"Jasmin Encrypter"** directory open "Jasmin Encryptor.sln" file
-	=>   Go to line number 34 & 35 
-	=>   Set Ngrok host address for **"hostaddr"** & **"AlertMsgLink"** Varible 
+    =>  * Inside **"Jasmin Encrypter"** directory open "Jasmin Encryptor.sln" file <br>
+	=>  * Go to line number 34 & 35 <br>
+	=>  * Set Ngrok host address for **"hostaddr"** & **"AlertMsgLink"** Varible <br>
 	
 
 	
