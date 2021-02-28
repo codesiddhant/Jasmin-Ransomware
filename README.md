@@ -133,7 +133,7 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 	     * =>   Set Ngrok host address for **"hostaddr"** & **"AlertMsgLink"** Variable <br>
 	
     <p align="center">
-    <img alt="jasmin ransomware" width="450" src="./Images/variable.gif">
+    <img alt="jasmin ransomware" src="./Images/variable.gif">
     </p>
 	
 
