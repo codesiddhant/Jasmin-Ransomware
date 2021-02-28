@@ -114,8 +114,24 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 3. Generating Payload 
          
     Note: You should have installed visual studio 2019 or later in your machine		 
+	
+	* start ngrok 
+     
+	 Use ngrok server for portwording (Wan Attack)
+	 
+	```sh
+     ngrok  http localhost:80
+    ```
+	
+	* Copy Forwarding Address 
+	
+	<p align="center">
+    <img alt="siddhantgour" src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/Images/ngrok.png>
+    </p>
+	
  
-    => Open "Jasmin Encrypter" directory & open "Jasmin Encryptor.sln" file
+    =>    Open "Jasmin Encrypter" directory & open "Jasmin Encryptor.sln" file
+	=>    Now 
 	
 
   
