@@ -8,7 +8,7 @@
   <p align="center">
     A Powerful Ransomware Tool for Security Testing Used by ReadTeams
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">Video Tutorial</a>
+    <a href="https://www.youtube.com/watch?v=16qaRyqs1FM">Video Tutorial</a>
     ·
     <a href="https://github.com/codesiddhant/jasmin-ransomware/issues">Report Bug</a>
     ·
