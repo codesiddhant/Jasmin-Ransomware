@@ -102,7 +102,7 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 	```sh
       mysql -u jasminadmin -p123456 jasmin_db < htdocs/database/jasmin_db.sql
     ```
-	 
+	
 3.	Loggin Dashboard
      
 	Open Google Chrome and visit http://localhost
@@ -113,16 +113,8 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 	 Access Code : 123456
    ```
 
-4. Generating Payload 
-         
-    Note: You should have installed visual studio 2019 or later in your machine		 
- 
-    A. Open "Jasmin Encrypter" directory & open "Jasmin Encryptor.sln" file
-	
    
-   
-
-
+  
 <!-- https://github.com/Ileriayo/markdown-badges-->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
