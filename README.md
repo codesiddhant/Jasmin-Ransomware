@@ -115,7 +115,7 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
          
     Note: You should have installed visual studio 2019 or later in your machine		 
 	
-	* Use ngrok server for portwording (Wan Attack)
+	* **Use ngrok server for portwording (Wan Attack)**
 	 
 	```sh
      ngrok  http localhost:80
