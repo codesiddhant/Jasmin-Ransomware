@@ -88,7 +88,14 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 	```sh
      mysql -h localhost -u root
    ```
-  
+    * Create new database & assign user
+	
+	```sh
+     CREATE DATABASE jasmin_db;
+	 CREATE USER 'jasminadmin'@'localhost' IDENTIFIED BY '123456';
+	 GRANT ALL PRIVILEGES ON jasmin_db.* TO 'jasminadmin'@'localhost';
+	 Exit
+   ```
 ## Roadmap
 
   
