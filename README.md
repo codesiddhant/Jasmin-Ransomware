@@ -143,7 +143,7 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 		 * =>   Go to **"Jasmin Encrypter\bin\Release"** directory !! Congrats Payload is ready <br>
 		 
 * ### Next Steps	
-    * **Sending File to Victim's Pc** <br>
+    * ## Sending File to Victim's Pc <br>
 	     * **Now, Send this Payload file to your victims through emails or any socail other engineering technique you want** <br>
 		 * **When Ever your victim click on paylaod file it will encrypt his all the important files and send the decryption key to your web dashboad** <br>
          
