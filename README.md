@@ -100,7 +100,7 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 	* Importing jasmin_db.sql file from database directory 
 	
 	```sh
-      mysql -u jasminadmin -p jasmin_db < htdocs/database/jasmin_db.sql
+      mysql -u jasminadmin -p123456 jasmin_db < htdocs/database/jasmin_db.sql
     ```
 	 
 3.	Loggin Dashboard
@@ -119,12 +119,8 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
  
     A. Open "Jasmin Encrypter" directory & open "Jasmin Encryptor.sln" file
 	
-	B. 
-  
    
    
-
-
 
 
 <!-- https://github.com/Ileriayo/markdown-badges-->
