@@ -126,10 +126,9 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 	* Copy Forwarding Address 
 	
 	<p align="center">
-    <img alt="siddhantgour" src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/Images/ngrok.png>
+    <img alt="siddhantgour" src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/Images/ngrok.png">
     </p>
 	
- 
     =>    Open "Jasmin Encrypter" directory & open "Jasmin Encryptor.sln" file
 	=>    Now 
 	
