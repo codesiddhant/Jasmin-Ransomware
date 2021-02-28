@@ -20,6 +20,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
+	<a href="#DISCLAIMER">DISCLAIMER ⚠️</a>
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
@@ -46,6 +47,16 @@
 <p align="center">
   <img alt="jasmin ransomware" src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/Images/jasmin-banner.gif" width="850"/>
 </p>
+<div class="panel panel-danger">
+**Please Read The DISCLAIMER First** ⚠️⚠️
+<a href="#DISCLAIMER">Decryption Tool</a>
+{: .panel-heading}
+<div class="panel-body">
+
+DANGER DESCRIPTION
+
+</div>
+</div>
 
 Jasmin is a different kind of ransomware worm by which many of your documents, photos, videos, database and other important files are no longer accessible because they have been encrypted and it becomes impossible for users to access their files without decryption tool and valid key.
 This Tool is Developed to help Redteams and ethical hacker for simulting a real ransomware attack. <br>
@@ -165,6 +176,14 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 		 * =>   reply your victims with Decryption Tool and Passsword File  <br>
 		 
 <!-- LICENSE -->
+## DISCLAIMER ⚠️ 🚨
+ * Codesiddhant is a Github Page related to Computer Security  and not a site that promotes hacking / cracking / software piracy. <br>
+ * Do not attempt to violate the law with anything contained here. If you planned to use the tool for illegal purpose, then please leave this site immediately! We will not be responsible for your any illegal actions. Neither administration of this tool, the developer of this application, or anyone else affiliated in any way, is going to accept responsibility for your actions. <br>
+ * You shall not misuse this tool to harm someone’s computer. However, you may try out these hacks on your own computer at your own risk. Simulating Ransomware attack (without permission) on computers that you do not own is illegal. <br>
+ * We believe only in White Hat Hacking. On the other hand, we condemn Black Hat Hacking. <br>
+ * **A ransomware attack is considered to be illegal activity aside from capturing your data in the computer, it will demand you to pay a ransom fee. Encrypting someone’s data without their written permission is a punishable offense** <br> 
+ 
+
 ## License 📝
 
 Distributed under the MIT License. See `LICENSE` for more information.
