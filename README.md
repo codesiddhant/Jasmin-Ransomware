@@ -153,7 +153,7 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
     * **Decrypting Victims File** <br>
 	     * =>   open **"Jasmin decryptor\Jasmin decryptor.sln"** & build the .exe file <br>
          * =>   get the **SystemId** from your victims through emails  <br>
-	     * =>   download the Decryption key from web-dashboard for that **SystemId** br>
+	     * =>   download the Decryption key from web-dashboard for that **SystemId** <br>
 		 * =>   reply your victims with Decryption Tool and Passsword File  <br>
 		   
   
