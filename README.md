@@ -49,10 +49,6 @@
 </p>
 
 <span style="color:red"> <h2>Please First read the <a href="#DISCLAIMER">DISCLAIMER</a> ⚠️⚠️</h2> </span>
-
-
-DANGER DESCRIPTION
-
 </div>
 </div>
 
