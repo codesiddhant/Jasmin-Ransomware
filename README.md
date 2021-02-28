@@ -170,7 +170,7 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
-Wanna Jasmin Pro with custom features ?? Dm me 
+Wanna Jasmin Pro with custom features ?? Dm me <br>
 [![Siddhantgour][Instagram-shield]][Instagram-url]  [![LinkedIn][linkedin-shield]][linkedin-url] 
 [![Siddhantgour][Twitter-shield]][Twitter-url] [![Youtube][Youtube-shield]][Youtube-url] [![Telegram][Telegram-shield]][Telegram-url] [![Quora][Quora-shield]][Quora-url]  [![Facebook][Facebook-shield]][Facebook-url] 
 		 
