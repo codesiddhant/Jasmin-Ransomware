@@ -77,7 +77,7 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
    
 ### Setting Up Webserver & Database
    
-    **Copy the all the files in webpanel directory to htdocs or (/var/www/html).**  
+    **Copy the all the files in webpanel directory to htdocs or (/var/www/html)**  
 	
 	**Open Mysql Shell** 
 	
