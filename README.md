@@ -48,7 +48,7 @@
   <img alt="jasmin ransomware" src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/Images/jasmin-banner.gif" width="850"/>
 </p>
 <div class="panel panel-danger">
-**Please Read The DISCLAIMER First** ⚠️⚠️
+**Please Read The DISCLAIMER First**
 <a href="#DISCLAIMER">Decryption Tool</a>
 {: .panel-heading}
 <div class="panel-body">
