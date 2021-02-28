@@ -68,13 +68,14 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
   <img alt="jasmin ransomware" src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/Images/workflow.png" />
 </p>
 
-### SETUP AND RUNNING
+## SETUP AND RUNNING
 
-1. **Clone the repo**
+  **Clone this repo**
    ```sh
    git clone https://github.com/codesiddhant/jasmin-ransomware.git
    ```
-2. **Setting Up Webserver & Database**
+   
+### Setting Up Webserver & Database**
    
     * Copy the all the files in webpanel directory to htdocs or (/var/www/html).  
 	
@@ -84,11 +85,11 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
     <img alt="jasmin ransomware" src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/Images/xampp.jpg" />
     </p>
 	
-	* Login as Root user. 
+	* **Login as Root user.** 
 	```sh
      mysql -h localhost -u root
    ```
-    * Create new database & assign user.
+    * **Create new database & assign user.**
 	
 	```sh
      CREATE DATABASE jasmin_db;
@@ -97,12 +98,12 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 	 Exit
    ```
 	
-	* Importing jasmin_db.sql file from database directory. 
+	* **Importing jasmin_db.sql file from database directory.** 
 	
 	```sh
       mysql -u jasminadmin -p123456 jasmin_db < htdocs/database/jasmin_db.sql
     ```
-	* Loggin Dashboard
+	* **Loggin Dashboard**
      
 	 Open Google Chrome and visit http://localhost/ <br>
 	 Use default credentials
@@ -111,11 +112,11 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 	 Access Code : 123456
     ```
 	
-3. **Generating Payload**
+### Generating Payload
          
     Note: You should have installed visual studio 2019 or later in your machine		 
 	
-	* start ngrok 
+	* **start ngrok** 
      
 	 Use ngrok server for portwording (Wan Attack)
 	 
@@ -123,7 +124,7 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
      ngrok  http localhost:80
     ```
 	
-	* Copy Forwarding Address 
+	* **Copy Forwarding Address** 
 	
 	<p align="center">
     <img alt="siddhantgour" src="./Images/ngrok.PNG">
