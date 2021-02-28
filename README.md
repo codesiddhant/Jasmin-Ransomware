@@ -68,6 +68,14 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
   <img alt="jasmin ransomware" src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/Images/workflow.png" />
 </p>
 
+## Prerequisites
+
+* **Visual Studio 2019 or later** </br>
+
+* **Xampp Server (Windows) or LAMP Server(Linux)** </br>
+
+* **Ngrok for portwording** </br>
+
 ## SETUP AND RUNNING
 
 * ### Clone This Repo
