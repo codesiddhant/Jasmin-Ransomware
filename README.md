@@ -70,7 +70,7 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 
 ### SETUP AND RUNNING
 
-1. ** Clone the repo **
+1. **Clone the repo**
    ```sh
    git clone https://github.com/codesiddhant/jasmin-ransomware.git
    ```
