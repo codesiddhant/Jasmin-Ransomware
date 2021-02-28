@@ -145,10 +145,16 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 * ### Next Steps	
     * **Sending File to Victim's Pc** <br>
 	     * Now, Send this Payload file to your victims through emails or any socail other engineering technique you want <br>
-		 * When Ever our victim click on that paylaod file it will encrypt all important files and send the decryption key to our web dashboard <br>
-		 * For Custom alert message to your victims, edit the HTML file inside "webpanel/altermsg.zip" <br>
+		 * When Ever our victim click on that payload file it will encrypt all important files and send the decryption key to our web dashboard <br>
+		 * For Custom alert message to your victims, edit the HTML file inside "webpanel/alertmsg.zip" <br>
+		 
 * ### Decryption Process			  
-         
+    * **Building .Exe File** <br>
+	     * =>   Go to top nav bar & click to build => Clean Solution  <br>
+         * =>   Again click to build => Clean Jasmin Encryptor <br>
+	     * =>   Once Again click to build button => Rebuild Jasmin Encryptor <br>
+		 * =>   Go to **"Jasmin Encrypter\bin\Release"** directory !! Congrats Payload is ready <br>
+		   
   
 <!-- https://github.com/Ileriayo/markdown-badges-->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
