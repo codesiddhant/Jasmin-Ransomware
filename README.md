@@ -97,7 +97,7 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 	 Exit
    ```
 	
-	* Importing jasmin_db.sql file from database directory 
+	* Importing jasmin_db.sql file from database directory. 
 	
 	```sh
       mysql -u jasminadmin -p123456 jasmin_db < htdocs/database/jasmin_db.sql
@@ -111,7 +111,12 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 	 Access Code : 123456
     ```
 	
-3. Roadmap
+3. Generating Payload 
+         
+    Note: You should have installed visual studio 2019 or later in your machine		 
+ 
+    A. Open "Jasmin Encrypter" directory & open "Jasmin Encryptor.sln" file
+	
 
   
 <!-- https://github.com/Ileriayo/markdown-badges-->
