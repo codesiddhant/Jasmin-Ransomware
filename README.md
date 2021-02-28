@@ -83,7 +83,35 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 	 <p align="center">
     <img alt="jasmin ransomware" src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/Images/xampp.jpg" />
     </p>
-
+	
+	* Login as Root user 
+	```sh
+     mysql -h localhost -u root
+   ```
+    * Create new database & assign user
+	
+	```sh
+     CREATE DATABASE jasmin_db;
+	 CREATE USER 'jasminadmin'@'localhost' IDENTIFIED BY '123456';
+	 GRANT ALL PRIVILEGES ON jasmin_db.* TO 'jasminadmin'@'localhost';
+	 Exit
+   ```
+	
+	* Importing jasmin_db.sql file from database directory 
+	
+	```sh
+      mysql -u jasminadmin -p123456 jasmin_db < htdocs/database/jasmin_db.sql
+    ```
+	
+3.	Loggin Dashboard
+     
+	Open Google Chrome and visit http://localhost
+	
+	Login with default credentials
+	```sh
+     Username    : siddhant
+	 Access Code : 123456
+   ```
 ## Roadmap
 
   
