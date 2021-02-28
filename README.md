@@ -63,12 +63,12 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 [![Payload][c#-shield]][c#-url]  [![Dashboard][bootstrap-shield]][bootstrap-url] 
 [![Server][php-shield]][php-url] [![Database][mysql-shield]][mysql-url] 
 
-## Work Flow
+## Work Flow 🧾
 <p align="center">
   <img alt="jasmin ransomware" src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/Images/workflow.png" />
 </p>
 
-## Prerequisites
+## Prerequisites 🧰
 
 * **Visual Studio 2019 or later** </br>
 
@@ -76,13 +76,13 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 
 * **Ngrok for portwording** </br>
 
-## SETUP AND RUNNING
+## SETUP AND RUNNING 🖥️
 
 * ### Clone This Repo
    ```sh
    git clone https://github.com/codesiddhant/jasmin-ransomware.git
    ```
-* ### Webserver & Database
+* ### Webserver & Database 
    
     * **Copy the all the files in webpanel directory to htdocs or (/var/www/html)**  
 	
@@ -119,7 +119,7 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 	 Access Code : 123456
     ```
 	
-* ### Generating Payload 
+* ### Generating Payload 💣
          
     Note: You should have installed visual studio 2019 or later in your machine		 
 	
@@ -150,14 +150,14 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 	     * =>   Once Again click to build button => Rebuild Jasmin Encryptor <br>
 		 * =>   Go to **"Jasmin Encryptor\bin\Release"** directory !! Congrats Payload is ready <br>
 		 
-* ### Next Steps	
+* ### Next Steps 😤	
     * **Sending File to Victim's Pc** <br>
 	     * Replace the email address inside "webpanel/alertmsg.zip/index.html" <br>
 	     * Now, Send this Payload file to your victims through emails or any socail other engineering technique you want <br>
 		 * When Ever our victim click on that payload file it will encrypt all important files and send the decryption key to our web dashboard <br>
 		 * For Custom alert message to your victims, edit the HTML file inside "webpanel/alertmsg.zip" <br>
 		 
-* ### Decryption Process			  
+* ### Decryption Process 🔑			  
     * **Decrypting Victims File** <br>
 	     * =>   open **"Jasmin decryptor\Jasmin decryptor.sln"** & build the .exe file <br>
          * =>   get the **SystemId** from your victims through emails  <br>
@@ -165,12 +165,12 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 		 * =>   reply your victims with Decryption Tool and Passsword File  <br>
 		 
 <!-- LICENSE -->
-## License
+## License 📝
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
-## Contact
+## Contact 📞
 Wanna Jasmin Pro with custom features ? Dm me <br>
  <br>
 [![Siddhantgour][Instagram-shield]][Instagram-url]  [![LinkedIn][linkedin-shield]][linkedin-url] 
