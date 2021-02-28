@@ -142,8 +142,8 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 	     * =>   Once Again click to build button => Rebuild Jasmin Encryptor <br>
 		 * =>   Go to **"Jasmin Encrypter\bin\Release"** directory !! Congrats Payload is ready <br>
 		 
-* ### Generating Payload 	
-    * **Building .Exe File** <br>
+* ### Next Steps	
+    
 	     * =>   Go to top nav bar & click to build => Clean Solution  <br>
          * =>   Again click to build => Clean Jasmin Encryptor <br>
 	     * =>   Once Again click to build button => Rebuild Jasmin Encryptor <br>
