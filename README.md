@@ -104,7 +104,7 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
     ```
 	* Loggin Dashboard
      
-	 Open Google Chrome and visit http://localhost/
+	 Open Google Chrome and visit http://localhost/ <br>
 	 Use default credentials
 	```sh
      Username    : siddhant
