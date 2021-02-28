@@ -79,7 +79,7 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
    
     **Copy the all the files in webpanel directory to htdocs or (/var/www/html)**  
 	
-	**Open Mysql Shell** 
+	*Open Mysql Shell* 
 	
 	 <p align="center">
     <img alt="jasmin ransomware" src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/Images/xampp.jpg" />
