@@ -102,6 +102,15 @@ What you need is a ransomware simulator that can safely encrypt some files on yo
 	```sh
       mysql -u jasminadmin -p123456 jasmin_db < htdocs/database/jasmin_db.sql
     ```
+	* Loggin Dashboard
+     
+	Open Google Chrome and visit http://localhost/
+	
+	Login with default credentials
+	```sh
+     Username    : siddhant
+	 Access Code : 123456
+    ```
 	
 ## Roadmap
 
