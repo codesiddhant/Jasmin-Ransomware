@@ -24,11 +24,11 @@
       <a href="#about-the-project-">About The Project</a>
       <ul>
         <li><a href="#built-with-">Built With</a></li>
-        <li><a href="#workflow-">Work Flow</a></li>
+        <li><a href="#work-flow-">Work Flow</a></li>
       </ul>
     </li>
     <li>
-      <a href="#SETUP-AND-RUNNING">Setup & Running</a>
+      <a href="#setup-and-running-%EF%B8%8F">Setup & Running</a>
       <ul>
         <li><a href="#prerequisites-">Prerequisites</a></li>
         <li><a href="#Clone-This-Repo">Installation</a></li>
