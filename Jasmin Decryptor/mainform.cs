@@ -212,7 +212,7 @@ namespace Jasmin_Decryptor
             if (AES_Decrypt(bytesToBeDecrypted, passwordBytes) != null)
             {
                 byte[] bytesDecrypted = AES_Decrypt(bytesToBeDecrypted, passwordBytes);
-                string file = path.Remove(path.Length - 5, 5);
+                string file = path.Remove(path.Length - 6, 6);
                 File.WriteAllBytes(file, bytesDecrypted);
                 File.Delete(path);
                 decryptedfiles++;
