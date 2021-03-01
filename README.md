@@ -32,7 +32,7 @@
       <ul>
         <li><a href="#prerequisites-">Prerequisites</a></li>
         <li><a href="#Clone-This-Repo">Installation</a></li>
-        <li><a href="#Webserver-&-Database-">Webserver</a></li>
+        <li><a href="#webserver--database">Webserver</a></li>
         <li><a href="#Generating-Payload-">Encryption Payload</a></li>
         <li><a href="#Decryption-Process-">Decryption Tool</a></li>
       </ul>
@@ -79,7 +79,7 @@ This is a ransomware simulator that can safely encrypt some files on your comput
 
 * **Xampp Server (Windows) or LAMP Server(Linux)** </br>
 
-* **Ngrok for portwording** </br>
+* **Ngrok for port forwarding** </br>
 
 ## SETUP AND RUNNING 🖥️
 
@@ -128,7 +128,7 @@ This is a ransomware simulator that can safely encrypt some files on your comput
          
     Note: You should have installed visual studio 2019 or later in your machine		 
 	
-	* **Use ngrok server for portwording (Wan Attack)**
+	* **Use ngrok server for port forwarding (Wan Attack)**
 	 
 	```sh
      ngrok  http localhost:80
