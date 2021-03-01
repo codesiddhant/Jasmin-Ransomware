@@ -58,8 +58,8 @@ There is really no shortcut for something like this. It's not enough to just kno
 This is a ransomware simulator that can safely encrypt some files on your computer, to let you know if your defenses are actually working. Jasmin Ransomware is developed by security researcher siddhant gour. <br>
 
 
- Why to use jasmin to security testing ?:
-* Jasmin Ransomware is developed using C#(.Net Framework) which makes it lighter in weight and easier to embedded.
+ Why use Jasmin for security testing ?: ?:
+* Jasmin Ransomware is developed using C#(.Net Framework) which makes it lighter in weight and easier to embed.
 * You Can Simulate a real ransomware attack and bypass any kind of system securities .
 * Powerful | Strong Encryption | Centralized Database on Server| Can Bypass Anti Virus.
 
