@@ -21,10 +21,10 @@
   <ol>
    <li><a href="#disclaimer-%EF%B8%8F-">Disclaimer ⚠️</a></li>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project-">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
-        <li><a href="#workflow">Work Flow</a></li>
+        <li><a href="#built-with-">Built With</a></li>
+        <li><a href="#workflow-">Work Flow</a></li>
       </ul>
     </li>
     <li>
@@ -48,7 +48,7 @@
   <img alt="jasmin ransomware" src="https://github.com/codesiddhant/jasmin-ransomware/blob/master/Images/jasmin-banner.gif" width="850"/>
 </p>
 
-<span style="color:red"> <h2>Please First read the <a href="#DISCLAIMER">DISCLAIMER</a> ⚠️⚠️</h2> </span>
+<span style="color:red"> <h2>Please First read the <a href="#disclaimer-%EF%B8%8F-">DISCLAIMER</a> ⚠️⚠️</h2> </span>
 </div>
 </div>
 
