@@ -19,7 +19,7 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-   <li><a href="#DISCLAIMER">Disclaimer ⚠️</a></li>
+   <li><a href="#disclaimer-%EF%B8%8F-">Disclaimer ⚠️</a></li>
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
